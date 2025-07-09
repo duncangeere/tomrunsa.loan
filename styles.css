@@ -1,0 +1,57 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, 'Lucida Console', 'Monaco', 'Consolas', monospace;
+}
+
+/* Image styling */
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 40px auto 40px auto;
+}
+
+/* Bandcamp embed styling */
+.bandcamp-embed {
+    max-width: 600px;
+    margin: 50px auto 50px auto;
+}
+
+/* Email paragraph styling */
+.email-contact {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.email-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.email-contact a:hover {
+    color: #EBFF39;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .email-contact {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+}
